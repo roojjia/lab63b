@@ -11,6 +11,7 @@
   
 ## แหล่งข้อมูล
   การทดลอง : https://youtu.be/NLIUsWLEpmg
+  
   configuration file : https://github.com/choompol-boonmee/lab63b/blob/master/examples/01_Serial-Monitor/platformio.ini
   
 ## วิธีการทดลอง
@@ -24,7 +25,7 @@
   5. กดปุ่มสีแดงบน microcontroller เพื่อทำการ set
   6. เมื่อโรแกรม upload ข้อมูลเสร็จ ให้ใช้คำสั่ง pio device
   
-    ![image](https://user-images.githubusercontent.com/80879780/112122249-a9ad8580-8bf2-11eb-9d14-2b73f9642523.png)
+    ![image1](https://user-images.githubusercontent.com/80879780/112122249-a9ad8580-8bf2-11eb-9d14-2b73f9642523.png)
     
 ## บันทึกผลการทดลอง
 ## อภิปรายผลการทดลอง
