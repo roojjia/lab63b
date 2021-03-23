@@ -11,9 +11,14 @@
 ## แหล่งข้อมูล
   การทดลอง : https://www.youtube.com/watch?v=yBjab0UNuB8
   
+  configuration file : https://github.com/choompol-boonmee/lab63b/blob/master/examples/02_Scan-Wifi/platformio.ini
+  
 ## วิธีการทดลอง
   1. ต่อ microcontroller เข้ากับ serial และ usb ของคอมพิวเตอร์
   2. เขียนโปรแกรม 02_Scan-Wifi ใน platformio เพื่อทำการทดสอบ
+
+      โค๊ด : https://github.com/choompol-boonmee/lab63b/blob/master/examples/02_Scan-Wifi/src/main.cpp
+
   3. upload โปรแกรม 02_Scan-Wifi โดยใช้คำสั่ง upload
   4. กดปุ่มสีดำบน microcontrolller เพื่อทำการ upload ข้อมูล
   5. กดปุ่มสีแดงบน microcontroller เพื่อทำการ reset
