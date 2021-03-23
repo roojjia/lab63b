@@ -54,11 +54,17 @@
       ![image](https://user-images.githubusercontent.com/80879780/112122249-a9ad8580-8bf2-11eb-9d14-2b73f9642523.png)
  
 ## บันทึกผลการทดลอง
-   จากการทดลอง เมื่อใช้คำสั่ง vi platformio.ini พบว่า 
+   จากการทดลอง เมื่อใช้คำสั่ง vi platformio.ini พบว่า
+   
       platform คือ espressif8266  
+      
       board คือ esp01_1m
+      
       framework คือ arduin
+      
       upload port คือ COM3
+      
+      
    เมื่อใช้คำสั่งให้ microcontroller ทำงาน พบว่า โปรแกรมจะแสดงผลเป็นตัวเลขตั้งแต่ 1 ไปเรื่อยๆ โดยแสดงผลทุกๆ 1 วินาที และเมื่อทำการกดปุ่มสีแดง เพื่อ reset ข้อมูล โปรแกรมจะเริ่มแสดงผลข้อมูลตั้งแต่ 1 ใหม่
    
 ## อภิปรายผลการทดลอง
