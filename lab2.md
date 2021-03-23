@@ -11,7 +11,7 @@
   
 ## แหล่งข้อมูล
   1. 02 run example 2 : https://www.youtube.com/watch?v=yBjab0UNuB8
-  2. configuration file : https://github.com/choompol-boonmee/lab63b/blob/master/examples/02_Scan-Wifi/platformio.ini
+  2. src code : https://github.com/choompol-boonmee/lab63b/blob/master/examples/02_Scan-Wifi/platformio.ini
   
 ## วิธีการทดลอง
   1. ต่อ microcontroller เข้ากับ serial และ usb ของคอมพิวเตอร์
