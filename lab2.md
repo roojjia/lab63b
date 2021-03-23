@@ -75,7 +75,7 @@ void loop()
 ## บันทึกผลการทดลอง
    จากการเขียนโปรแกรมแสกนหาสัญญาณ wifi โดยพบว่า ตรวจจับได้ดังนี้
     
-      ![image](https://user-images.githubusercontent.com/80879780/112144508-e33eba80-8c0b-11eb-9a01-092f88370748.png)
+   ![image](https://user-images.githubusercontent.com/80879780/112144508-e33eba80-8c0b-11eb-9a01-092f88370748.png)
       
 ## อภิปรายผลการทดลอง
    จากการเขียนโปรแกรมเพื่อตรวจหาสัญญาณ wifi พบว่า เมื่อทำการอัพโหลดคำสั่ง 02_Scan-Wifi ลงใน microcontroller และแสดงผล wifi ที่ตรวจจับได้ 
