@@ -16,7 +16,7 @@
   1. ต่อ microcontroller เข้ากับ serial และ usb ของคอมพิวเตอร์
   2. เขียนโปรแกรม cd-01_serial-monitor ใน platformio เพื่อทำการทดสอบ
   
-     https://github.com/choompol-boonmee/lab63b/blob/master/examples/01_Serial-Monitor/src/main.cpp
+     ลิ้งค์โค๊ด : https://github.com/choompol-boonmee/lab63b/blob/master/examples/01_Serial-Monitor/src/main.cpp
   3. upload โปรแกรม cd-01_serial-monitor
   4. กดปุ่มสีดำบน microcontrolller เพื่อทำการ upload ข้อมูล
   5. กดปุ่มสีแดงบน microcontroller เพื่อทำการ set
