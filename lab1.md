@@ -14,25 +14,11 @@
  
 ## วิธีการทดลอง
   1. ต่อ microcontroller เข้ากับ serial และ usb ของคอมพิวเตอร์
-  2. เขียนโปรแกรมใน platformio เพื่อทำการทดสอบ
-    '''
-    #include <Arduino.h>
-
-int cnt = 0;
-
-void setup()
-{
-	Serial.begin(115200);
-}
-
-void loop()
-{
-	cnt++;
-	Serial.printf("PATTANI :%d\n",cnt);
-	delay(1000);
-}
-'''
-
+  2. เขียนโปรแกรม cd-01_serial-monitor ใน platformio เพื่อทำการทดสอบ 
+      https://github.com/choompol-boonmee/lab63b/blob/master/examples/01_Serial-Monitor/src/main.cpp
+  3. upload โปรแกรม cd-01_serial-monitor
+  4. กดปุ่มสีดำบน microcontrolller เพื่อทำการ upload ข้อมูล
+  5. กดปุ่มสีแดงบน microcontroller เพื่อทำการ set
 ## บันทึกผลการทดลอง
 ## อภิปรายผลการทดลอง
 ## คำถามท้ายการทดลอง
