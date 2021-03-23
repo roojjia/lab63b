@@ -11,7 +11,7 @@
   
 ## แหล่งข้อมูล
   1. 01 run example 1 : https://www.youtube.com/watch?v=NLIUsWLEpmg
-  2. configuration file : https://github.com/choompol-boonmee/lab63b/blob/master/examples/01_Serial-Monitor/platformio.ini
+  2. src code : https://github.com/choompol-boonmee/lab63b/blob/master/examples/01_Serial-Monitor/platformio.ini
   3. platformio : https://platformio.org/
   
 ## วิธีการทดลอง
