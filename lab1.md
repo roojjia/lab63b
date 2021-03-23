@@ -18,6 +18,7 @@
   2. เขียนโปรแกรม cd-01_serial-monitor ใน platformio เพื่อทำการทดสอบ
   
      โค๊ด : https://github.com/choompol-boonmee/lab63b/blob/master/examples/01_Serial-Monitor/src/main.cpp
+     
   3. upload โปรแกรม cd-01_serial-monitor โดยใช้คำสั่ง upload 
   4. กดปุ่มสีดำบน microcontrolller เพื่อทำการ upload ข้อมูล
   5. กดปุ่มสีแดงบน microcontroller เพื่อทำการ set
