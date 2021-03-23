@@ -22,7 +22,7 @@
   4. กดปุ่มสีดำบน microcontrolller เพื่อทำการ upload ข้อมูล
   5. กดปุ่มสีแดงบน microcontroller เพื่อทำการ set
   6. เมื่อโรแกรม upload ข้อมูลเสร็จ ให้ใช้คำสั่ง pio device
-    (https://imgur.com/5wtL3J0)
+    (https://user-images.githubusercontent.com/80879780/112122249-a9ad8580-8bf2-11eb-9d14-2b73f9642523.png)
     
 ## บันทึกผลการทดลอง
 ## อภิปรายผลการทดลอง
