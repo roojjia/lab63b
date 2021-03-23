@@ -16,12 +16,11 @@
   
 ## วิธีการทดลอง
   1. ต่อ microcontroller เข้ากับ serial และ usb ของคอมพิวเตอร์
-  2. เขียนโปรแกรม 01_serial-monitor ใน platformio เพื่อทำการทดสอบ
-  3. เปิด command prompt
-  4. เปิดโปรแกรมที่ใช้ในการทดสอบ โดยใช้คำสั่ง **cd pattani** 
-  5. เลือกคำสั่ง **01_serial-monitor**
-  6. พิมพ์คำสั่ง **vi src/main.cpp** 
-  7. เมื่อกด Enter จะได้ข้อมูลดังนี้
+  2. เปิด command prompt
+  3. เปิดโปรแกรมที่ใช้ในการทดสอบ โดยใช้คำสั่ง **cd pattani** 
+  4. เลือกคำสั่ง **01_serial-monitor**
+  5. พิมพ์คำสั่ง **vi src/main.cpp** 
+  6. เมื่อกด Enter จะได้ข้อมูลดังนี้
   ```javascript
   #include <Arduino.h>
 
@@ -39,17 +38,17 @@
 	        delay(1000);
    }
   ```  
-  8. พิมพ์คำสั่ง **vi platformio.ini** เมื่อกด Enter จะได้ดังนี้
+  7. พิมพ์คำสั่ง **vi platformio.ini** เมื่อกด Enter จะได้ดังนี้
   
         ![image](https://user-images.githubusercontent.com/80879772/111911794-83c09d80-8a99-11eb-8f0f-918b05017da2.png)
   
-  9. upload คำสั่งไปยัง microcontroller โดยใช้คำสั่ง **pio run -t upload** จะได้ดังนี้
+  8. upload คำสั่งไปยัง microcontroller โดยใช้คำสั่ง **pio run -t upload** จะได้ดังนี้
   
        ![image](https://user-images.githubusercontent.com/80879772/111912103-bfa83280-8a9a-11eb-903c-06a83b5ec517.png)
-  10. กดปุ่มสีดำบน microcontrolller เพื่อทำการ upload ข้อมูล
-  11. กดปุ่มสีแดงบน microcontroller เพื่อทำการ reset
-  12. เมื่อโปรแกรม upload ข้อมูลเสร็จ ให้ใช้คำสั่ง **pio device monitor**
-  13. โปรแกรมทำการแสดงผล ได้ดังนี้
+  9. กดปุ่มสีดำบน microcontrolller เพื่อทำการ upload ข้อมูล
+  10. กดปุ่มสีแดงบน microcontroller เพื่อทำการ reset
+  11. เมื่อโปรแกรม upload ข้อมูลเสร็จ ให้ใช้คำสั่ง **pio device monitor**
+  12. โปรแกรมทำการแสดงผล ได้ดังนี้
    
       ![image](https://user-images.githubusercontent.com/80879780/112122249-a9ad8580-8bf2-11eb-9d14-2b73f9642523.png)
  
