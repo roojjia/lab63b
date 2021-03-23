@@ -15,19 +15,60 @@
   
 ## วิธีการทดลอง
   1. ต่อ microcontroller เข้ากับ serial และ usb ของคอมพิวเตอร์
-  2. เขียนโปรแกรม 02_Scan-Wifi ใน platformio เพื่อทำการทดสอบ
+  2. เขียนโปรแกรม 01_serial-monitor ใน platformio เพื่อทำการทดสอบ
+  3. เปิด command prompt
+  4. เปิดโปรแกรมที่ใช้ในการทดสอบ โดยใช้คำสั่ง **cd pattani** 
+  5. เลือกคำสั่ง **02_Scan-Wifi**
+  6. พิมพ์คำสั่ง **vi src/main.cpp** 
+  7. เมื่อกด Enter จะได้ข้อมูลดังนี้
+  ```javascript
+#include <Arduino.h>
+#include <ESP8266WiFi.h>
 
-      โค๊ด : https://github.com/choompol-boonmee/lab63b/blob/master/examples/02_Scan-Wifi/src/main.cpp
+int cnt = 0;
 
-  3. upload โปรแกรม 02_Scan-Wifi โดยใช้คำสั่ง upload
-  4. กดปุ่มสีดำบน microcontrolller เพื่อทำการ upload ข้อมูล
-  5. กดปุ่มสีแดงบน microcontroller เพื่อทำการ reset
-  6. เมื่อโปรแกรม upload ข้อมูลเสร็จ ให้ใช้คำสั่ง pio device monitor
-  7. โปรแกรมทำการประมวลผลเพื่อค้นหาสัญญาณ wifi
+void setup()
+{
+	Serial.begin(115200);
+	WiFi.mode(WIFI_STA);
+	WiFi.disconnect();
+	delay(100);
+	Serial.println("\n\n\n");
+}
+
+void loop()
+{
+	Serial.println("========== เริ่มต้นแสกนหา Wifi ===========");
+	int n = WiFi.scanNetworks();
+	if(n == 0) {
+		Serial.println("NO NETWORK FOUND");
+	} else {
+		for(int i=0; i<n; i++) {
+			Serial.print(i + 1);
+			Serial.print(": ");
+			Serial.print(WiFi.SSID(i));
+			Serial.print(" (");
+			Serial.print(WiFi.RSSI(i));
+			Serial.println(")");
+			delay(10);
+		}
+	}
+	Serial.println("\n\n");
+}
+       
+```
+  8. upload คำสั่งไปยัง microcontroller โดยใช้คำสั่ง **pio run -t upload**
+  9. กดปุ่มสีดำบน microcontrolller เพื่อทำการ upload ข้อมูล
+  10. กดปุ่มสีแดงบน microcontroller เพื่อทำการ reset เมื่อ upload เสร็จจะได้ดังนี้
+  
+  ![image](https://user-images.githubusercontent.com/80879772/111913390-807ce000-8aa0-11eb-8585-8212565d4ff0.png)
+  
+  11. เมื่อโปรแกรม upload ข้อมูลเสร็จ ให้ใช้คำสั่ง **pio device monitor**
+  12. โปรแกรมทำการประมวลผลเพื่อค้นหาสัญญาณ wifi ได้ดังนี้
   
   ![image](https://user-images.githubusercontent.com/80879780/112144508-e33eba80-8c0b-11eb-9a01-092f88370748.png)
 
-  8. เมื่อกดปุ่มสีแดง เพื่อ reset โปรแกรมจะเริ่มแสกนหาสัญญาณ wifi ใหม่ ดังภาพ
+  13. เมื่อกดปุ่มสีแดง เพื่อ reset โปรแกรมจะเริ่มแสกนหาสัญญาณ wifi ใหม่ ดังภาพ
   
    ![image](https://user-images.githubusercontent.com/80879780/112144918-4c263280-8c0c-11eb-8687-f4b82159aefb.png)
   
