@@ -68,9 +68,11 @@ void loop()
   
   13. กดปุ่มสีดำ (ได้ 0 และ ไฟติด) และปล่อยปุ่มสีดำ ได้ผลดังนี้
   เมื่อกดปุ่ม
+  
   ![image](https://user-images.githubusercontent.com/80879772/111919198-4f5dd900-8abb-11eb-9539-e2264f79ed54.png)
   
   เมื่อไม่กดปุ่ม
+  
   ![image](https://user-images.githubusercontent.com/80879772/111919180-32c1a100-8abb-11eb-900e-264a6fbd1baa.png)
   
   14. นำ input (สายไฟเส้นสีขาว) ต่อกับสัญญาณจากเซนเซอร์
