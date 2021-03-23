@@ -15,12 +15,11 @@
   
 ## วิธีการทดลอง
   1. ต่อ microcontroller เข้ากับ serial และ usb ของคอมพิวเตอร์
-  2. เขียนโปรแกรม 01_serial-monitor ใน platformio เพื่อทำการทดสอบ
-  3. เปิด command prompt
-  4. เปิดโปรแกรมที่ใช้ในการทดสอบ โดยใช้คำสั่ง **cd pattani** 
-  5. เลือกคำสั่ง **02_Scan-Wifi**
-  6. พิมพ์คำสั่ง **vi src/main.cpp** 
-  7. เมื่อกด Enter จะได้ข้อมูลดังนี้
+  2. เปิด command prompt
+  3. เปิดโปรแกรมที่ใช้ในการทดสอบ โดยใช้คำสั่ง **cd pattani** 
+  4. เลือกคำสั่ง **02_Scan-Wifi**
+  5. พิมพ์คำสั่ง **vi src/main.cpp** 
+  6. เมื่อกด Enter จะได้ข้อมูลดังนี้
    
   ```javascript
 #include <Arduino.h>
@@ -58,18 +57,18 @@ void loop()
 }
        
 ```
-  8. upload คำสั่งไปยัง microcontroller โดยใช้คำสั่ง **pio run -t upload**
-  9. กดปุ่มสีดำบน microcontrolller เพื่อทำการ upload ข้อมูล
-  10. กดปุ่มสีแดงบน microcontroller เพื่อทำการ reset เมื่อ upload เสร็จจะได้ดังนี้
+  7. upload คำสั่งไปยัง microcontroller โดยใช้คำสั่ง **pio run -t upload**
+  8. กดปุ่มสีดำบน microcontrolller เพื่อทำการ upload ข้อมูล
+  9. กดปุ่มสีแดงบน microcontroller เพื่อทำการ reset เมื่อ upload เสร็จจะได้ดังนี้
   
   ![image](https://user-images.githubusercontent.com/80879772/111913390-807ce000-8aa0-11eb-8585-8212565d4ff0.png)
   
-  11. เมื่อโปรแกรม upload ข้อมูลเสร็จ ให้ใช้คำสั่ง **pio device monitor**
-  12. โปรแกรมทำการประมวลผลเพื่อค้นหาสัญญาณ wifi ได้ดังนี้
+  10. เมื่อโปรแกรม upload ข้อมูลเสร็จ ให้ใช้คำสั่ง **pio device monitor**
+  11. โปรแกรมทำการประมวลผลเพื่อค้นหาสัญญาณ wifi ได้ดังนี้
   
   ![image](https://user-images.githubusercontent.com/80879780/112144508-e33eba80-8c0b-11eb-9a01-092f88370748.png)
 
-  13. เมื่อกดปุ่มสีแดง เพื่อ reset โปรแกรมจะเริ่มแสกนหาสัญญาณ wifi ใหม่ ดังภาพ
+  12. เมื่อกดปุ่มสีแดง เพื่อ reset โปรแกรมจะเริ่มแสกนหาสัญญาณ wifi ใหม่ ดังภาพ
   
    ![image](https://user-images.githubusercontent.com/80879780/112144918-4c263280-8c0c-11eb-8687-f4b82159aefb.png)
   
