@@ -67,6 +67,7 @@ void loop()
   ![image](https://user-images.githubusercontent.com/80879772/111919091-bc24a380-8aba-11eb-8851-4e1b0eaa4363.png)
   
   13. กดปุ่มสีดำ (ได้ 0 และ ไฟติด) และปล่อยปุ่มสีดำ ได้ผลดังนี้
+  
   เมื่อกดปุ่ม
   
   ![image](https://user-images.githubusercontent.com/80879772/111919198-4f5dd900-8abb-11eb-9539-e2264f79ed54.png)
