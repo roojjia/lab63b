@@ -6,7 +6,7 @@
    
 ## อุปกรณ์ที่ใช้
   1. mitrocontroller (ESP-01)
-  2. serial
+  2. USB to Serial
   3. usb ที่ต่อกับคอมพิวเตอร์
   
 ## แหล่งข้อมูล
