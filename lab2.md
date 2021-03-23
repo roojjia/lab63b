@@ -5,7 +5,7 @@
   - เพื่อทราบถึงวิธีการเขียนโปรแกรมบน microcontroller
   
 ## อุปกรณ์ที่ใช้
-  1. mitrocontroller
+  1. mitrocontroller (ESP-01)
   2. serial
   3. usb ที่ต่อกับคอมพิวเตอร์
   
