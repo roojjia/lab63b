@@ -23,11 +23,10 @@
   3. upload โปรแกรม cd-01_serial-monitor โดยใช้คำสั่ง upload 
   4. กดปุ่มสีดำบน microcontrolller เพื่อทำการ upload ข้อมูล
   5. กดปุ่มสีแดงบน microcontroller เพื่อทำการ set
-  6. เมื่อโรแกรม upload ข้อมูลเสร็จ ให้ใช้คำสั่ง pio device
-  
-    ![image]
-    (https://user-images.githubusercontent.com/80879780/112122249-a9ad8580-8bf2-11eb-9d14-2b73f9642523.png)
-    
+  6. เมื่อโรแกรม upload ข้อมูลเสร็จ ให้ใช้คำสั่ง pio device monitor
+   
+      ![image](https://user-images.githubusercontent.com/80879780/112122249-a9ad8580-8bf2-11eb-9d14-2b73f9642523.png)
+ 
 ## บันทึกผลการทดลอง
 ## อภิปรายผลการทดลอง
 ## คำถามท้ายการทดลอง
