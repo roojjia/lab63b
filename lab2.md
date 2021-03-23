@@ -14,7 +14,7 @@
   2. src code : https://github.com/choompol-boonmee/lab63b/blob/master/examples/02_Scan-Wifi/platformio.ini
   
 ## วิธีการทดลอง
-  1. ต่อ microcontroller เข้ากับ serial และ usb ของคอมพิวเตอร์
+  1. ต่อ microcontroller เข้ากับ USB to serial
   2. เปิด command prompt
   3. เปิดโปรแกรมที่ใช้ในการทดสอบ โดยใช้คำสั่ง **cd pattani** 
   4. เลือกคำสั่ง **02_Scan-Wifi**
@@ -73,12 +73,12 @@ void loop()
    ![image](https://user-images.githubusercontent.com/80879780/112144918-4c263280-8c0c-11eb-8687-f4b82159aefb.png)
   
 ## บันทึกผลการทดลอง
-    จากการเขียนโปรแกรมแสกนหาสัญญาณ wifi โดยพบว่า ตรวจจับได้ดังนี้
+   จากการเขียนโปรแกรมแสกนหาสัญญาณ wifi โดยพบว่า ตรวจจับได้ดังนี้
     
       ![image](https://user-images.githubusercontent.com/80879780/112144508-e33eba80-8c0b-11eb-9a01-092f88370748.png)
       
 ## อภิปรายผลการทดลอง
-    จากการเขียนโปรแกรมเพื่อตรวจหาสัญญาณ wifi พบว่า เมื่อทำการอัพโหลดคำสั่ง 02_Scan-Wifi ลงใน microcontroller และแสดงผล wifi ที่ตรวจจับได้ 
+   จากการเขียนโปรแกรมเพื่อตรวจหาสัญญาณ wifi พบว่า เมื่อทำการอัพโหลดคำสั่ง 02_Scan-Wifi ลงใน microcontroller และแสดงผล wifi ที่ตรวจจับได้ 
     
 ## คำถามท้ายการทดลอง
 Microcontroller ที่นำมาใช้ในการเขียนโรแกรมคืออะไร และ สามารถแสกนหา wifi ได้ในระยะเท่าไร
