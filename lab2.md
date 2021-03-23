@@ -21,6 +21,7 @@
   5. เลือกคำสั่ง **02_Scan-Wifi**
   6. พิมพ์คำสั่ง **vi src/main.cpp** 
   7. เมื่อกด Enter จะได้ข้อมูลดังนี้
+   
   ```javascript
 #include <Arduino.h>
 #include <ESP8266WiFi.h>
@@ -73,5 +74,13 @@ void loop()
    ![image](https://user-images.githubusercontent.com/80879780/112144918-4c263280-8c0c-11eb-8687-f4b82159aefb.png)
   
 ## บันทึกผลการทดลอง
+    จากการเขียนโปรแกรมแสกนหาสัญญาณ wifi โดยพบว่า ตรวจจับได้ดังนี้
+    
+      ![image](https://user-images.githubusercontent.com/80879780/112144508-e33eba80-8c0b-11eb-9a01-092f88370748.png)
+      
 ## อภิปรายผลการทดลอง
+    จากการเขียนโปรแกรมเพื่อตรวจหาสัญญาณ wifi พบว่า เมื่อทำการอัพโหลดคำสั่ง 02_Scan-Wifi ลงใน microcontroller และแสดงผล wifi ที่ตรวจจับได้ 
+    
 ## คำถามท้ายการทดลอง
+Microcontroller ที่นำมาใช้ในการเขียนโรแกรมคืออะไร และ สามารถแสกนหา wifi ได้ในระยะเท่าไร
+__ตอบ__ Arduino serial to ESP 826 โดยที่ระยะทางจะขึ้นอยู่กับความแรงของ wifi ประมาณ 300 m. - 4 km.
