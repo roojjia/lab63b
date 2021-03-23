@@ -3,7 +3,7 @@
 ## วัตถุประสงค์
   - เพื่อให้เข้าใจการเขียนโปรแกรมเบื้องต้นลงใน micro controller
   - เพื่อให้เข้าใจการต่อ microcontroller กับ seiral
-  - 
+   
 ## อุปกรณ์ที่ใช้
   1. mitrocontroller
   2. serial
