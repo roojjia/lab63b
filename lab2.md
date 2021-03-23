@@ -2,6 +2,7 @@
 
 ## วัตถุประสงค์
   - เพื่อใช้ microcontroller ในการแสกนค้นหา wifi
+  - เพื่อทราบถึงวิธีการเขียนโปรแกรมบน microcontroller
   
 ## อุปกรณ์ที่ใช้
   1. mitrocontroller
@@ -9,9 +10,8 @@
   3. usb ที่ต่อกับคอมพิวเตอร์
   
 ## แหล่งข้อมูล
-  การทดลอง : https://www.youtube.com/watch?v=yBjab0UNuB8
-  
-  configuration file : https://github.com/choompol-boonmee/lab63b/blob/master/examples/02_Scan-Wifi/platformio.ini
+  1. 02 run example 2 : https://www.youtube.com/watch?v=yBjab0UNuB8
+  2. configuration file : https://github.com/choompol-boonmee/lab63b/blob/master/examples/02_Scan-Wifi/platformio.ini
   
 ## วิธีการทดลอง
   1. ต่อ microcontroller เข้ากับ serial และ usb ของคอมพิวเตอร์
