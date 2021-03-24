@@ -7,7 +7,6 @@
 ## อุปกรณ์ที่ใช้
   1. mitrocontroller (ESP-01)
   2. USB to Serial
-  3. usb ที่ต่อกับคอมพิวเตอร์
   
 ## แหล่งข้อมูล
   1. 01 run example 1 : https://www.youtube.com/watch?v=NLIUsWLEpmg
